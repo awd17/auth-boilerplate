@@ -11,6 +11,14 @@ Install the dependencies:
 npm install
 ```
 
+Create `.env` file with
+```
+SUPABASE_URL="<supabase project url>"
+SUPABASE_KEY="<supabase project key>"
+```
+
+Enable the auth providers in Supabase project settings.
+
 Start the development server on `http://localhost:3000`:
 
 ```bash
